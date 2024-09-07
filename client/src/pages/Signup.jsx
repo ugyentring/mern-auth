@@ -32,6 +32,7 @@ export default function Signup() {
         setError(true);
         return;
       }
+      window.location.href = "/sign-in";
     } catch (error) {
       setLoading(false);
       setError(true);
